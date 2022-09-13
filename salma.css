@@ -1,0 +1,206 @@
+
+.site {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+    .header {
+        width: 100vw;
+        height: 7%;
+        background-color: #F6F7F1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+
+    .header__logo {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        padding-left: 40%;
+    }
+
+    .header__logo_svg {
+        max-width: 100%;
+    }
+
+    .header__menu {
+        grid-row: 1/2;
+        grid-column: 3/5;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 3%;
+        align-items: center;
+    }
+
+    .menu__link {
+        text-decoration: none;
+        color: #1F1E1E;
+        font-size: 1vw;
+    }
+
+    .shop {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 4% 1fr 1fr 4%;
+        grid-template-rows: 1fr 1fr;
+        gap: 0.5%;
+    }
+
+    .shop__main-item {
+        grid-row: 1/2;
+        grid-column: 2/4;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+
+    .shop__main-item_descript {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .shop__main-item_img-container {
+        width: 100%;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .shop__main-item_img {
+        max-width: 100%;
+        grid-row: 1/4;
+        grid-column: 1/3;
+    }
+
+    .shop__main-item_txt1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: end;
+        justify-self: center;
+        color: white;
+        font-size: 1vw;
+        text-transform: uppercase;
+    }
+
+    .shop__main-item_txt2 {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        justify-self: center;
+        align-self: center;
+        color: white;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .shop__main-item_button {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        justify-self: center;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 30%;
+    }
+
+
+    .shop__main-item_button-txt {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        height: fit-content;
+        font-size: 1vw;
+        background-color: #1F1E1E;
+        border-radius: 4px;
+        text-transform: uppercase;
+    }
+
+    .shop__items_1 {
+
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .shop__items_2 {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+
+    .shop__items_img-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .shop__items_img {
+        max-width: 100%;
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .shop__items_txt {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: end;
+        color: white;
+        font-size: 2vw;
+        padding-left: 5%;
+        padding-bottom: 10%;
+    }
+
+    .shop__items_decoration {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: end;
+        padding-left: 5%;
+        padding-bottom: 8%;
+        width: 100%;
+    }
+
+    .shop__items_decoration-line {
+        max-width: 100%;
+    }
+
+    .shop__items_links {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: end;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        font-size: 1vw;
+    }
+
+    .shop__items_links>a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+.tagline__container {
+    
+    margin-top: -5%;
+}
+
+    .tagline {
+        font-size: 2vw;
+        line-height: 150%;
+        letter-spacing: 0em;
+        text-align: center;
+    }
